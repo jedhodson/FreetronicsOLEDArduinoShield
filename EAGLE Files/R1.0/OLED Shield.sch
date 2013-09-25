@@ -4103,8 +4103,7 @@ Designed for Freetronics OLED Display</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="5V"/>
 <wire x1="40.64" y1="78.74" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="40.64" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
@@ -4115,17 +4114,14 @@ Designed for Freetronics OLED Display</text>
 <pinref part="OLED2" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
 <junction x="119.38" y="55.88"/>
-<pinref part="SDCD" gate="G$1" pin="A"/>
-<wire x1="55.88" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="25.4" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<junction x="43.18" y="45.72"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <junction x="40.64" y="78.74"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="PWR" gate="G$1" pin="C"/>
-<wire x1="30.48" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-<junction x="43.18" y="25.4"/>
+<pinref part="SDCD" gate="G$1" pin="A"/>
+<wire x1="55.88" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="25.4" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<junction x="40.64" y="40.64"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -4278,6 +4274,10 @@ Designed for Freetronics OLED Display</text>
 <pinref part="RESET" gate="S" pin="1"/>
 <wire x1="33.02" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
 <junction x="35.56" y="55.88"/>
+<pinref part="PWR" gate="G$1" pin="C"/>
+<wire x1="30.48" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="25.4" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<junction x="35.56" y="35.56"/>
 </segment>
 </net>
 <net name="N$12" class="0">
