@@ -109,7 +109,7 @@
 <wire x1="59.36" y1="25.4" x2="59.36" y2="80" width="0" layer="20"/>
 <wire x1="59.36" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="25.4" width="0" layer="20"/>
-<text x="19.05" y="64.77" size="1.778" layer="27">OLED Display Shield for
+<text x="19.05" y="64.77" size="1.778" layer="25">OLED Display Shield for
 Freetronics OLED module
 Created Jed Hodson</text>
 </plain>
